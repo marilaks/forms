@@ -1,0 +1,69 @@
+<html>
+<head>
+    <script src="form.css" type="stylesheet/css"></script>
+<title>
+FCC:Survey form
+</title>
+<body>
+    <div>
+    <h1 id="title">
+        Freecodecamp survey form
+    </h1>
+    <p id="description">
+        Thank you for taking the survey form
+    </p>
+    <form id="survey-form">
+        <div class = "form">
+            <label id = "forms" for = "name">Name</label>
+            <input type = "text" name ="name" id="forms" placeholder="enter name" required>
+
+        </div>
+        <div class = "form">
+            <label id = "forms" for = "email">Email</label>
+            <input type = "email" name ="email" id="forms" placeholder="enter email" required>
+                
+        </div>
+        <div class = "form">
+            <label id = "forms" for = "age">Age</label>
+            <input type = "age" name ="age" id="forms" placeholder="enter age" required>
+
+        </div>
+        <div class = "form">
+            <p>would you recommend freecodecamp to your friends?</p>
+            <label>
+            <input type = "radio" value="Definitely" id="forms">Definitely
+            </label> 
+            <label>
+             <input type = "radio" value="May be" id="forms">May be
+             </label>  
+             <label>
+             <input type = "radio" value="nope" id="forms">Nope
+             </label>    
+        </div>
+
+    <!-- div for checklist-->
+    <div class = "form">
+        <p>what do you mostly like from freecodecamp?</p>
+        <label>
+        <input type = "checkbox" value="content" id="forms">Content
+        </label> 
+        <label>
+         <input type = "checkbox" value="user-friendly" id="forms">user-friendly
+         </label>  
+         <label>
+         <input type = "checkbox" value="beginner-friendly" id="forms">beginner-friendly
+         </label>    
+    </div>
+    <!--div for comments-->
+    <div class = "sugg">
+        <p>Your suggestions are most welcomed!</p>
+        <textarea id ="sugg" name="comments" placeholder="enter your comments">
+            Enter your comments
+        </textarea>
+    </div>
+    <!--div for submit button-->
+    <div class="submit">
+        <button type ="submit" id="submit">Submit</button>
+    </div>
+    </form>
+</body>
